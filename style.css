@@ -85,3 +85,142 @@
   height: 56px;
   border-radius: 50%;
 }
+
+footer {
+  width: 319px;
+  position: absolute;
+  top: 51px;
+  right: 56px;
+}
+
+#user_profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#user_profile_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#user_profile_left > img {
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  margin-right: 17px;
+}
+
+#user_profile_left > div > h4 {
+  color: #262626;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#user_profile_left > div > p {
+  color: #8e8e8e;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#user_profile > a {
+  color: #0095f6;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#footer_suggestions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+#footer_suggestions > h5 {
+  color: #8e8e8e;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#footer_suggestions > a {
+  color: #262626;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#user_suggestions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Suggestions_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Suggestions_div_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 17px;
+}
+
+.Suggestions_userimg {
+  width: 32px;
+  height: 32px;
+  background: #2d2d2d;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+
+.Suggestions_div_left > h4 {
+  color: #262626;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.Suggestions_div_left > div > p {
+  color: #8e8e8e;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.Suggestions_div > a {
+  color: #0095f6;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#footer_links {
+  margin-top: 24px;
+}
+
+#footer_links > a {
+  color: #c7c7c7;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+#footer_copyright {
+  color: #c7c7c7;
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
