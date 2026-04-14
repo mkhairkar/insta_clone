@@ -45,8 +45,43 @@
 
 #main-scrollable-container {
   height: 100vh;
-  background-color: pink;
   width: 80%;
   overflow: hidden;
   overflow-y: scroll;
+  padding: 30px;
+}
+
+#stories-section {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story > p {
+  color: #262626;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+}
+
+.stories-image {
+  background-image: url(/assets/story_frame.svg);
+  width: 66px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stories-image > img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
 }
