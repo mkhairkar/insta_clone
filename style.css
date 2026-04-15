@@ -312,12 +312,27 @@ footer {
   margin-top: 8px;
 }
 
+.caption > span {
+  color: #8e8e8e;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
 .translation_option {
   color: #262626;
   margin-top: 6px;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
+}
+
+.comment_all {
+  color: #8e8e8e;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 5px;
 }
 
 .comment_count {
@@ -327,6 +342,29 @@ footer {
   line-height: 18px;
 }
 
+.other_comments > p > span {
+  font-size: 14px;
+  line-height: 18px;
+  color: #00376b;
+}
+
+.other_comments > p {
+  position: relative;
+  margin-top: 3.03px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-right: 25px;
+}
+
+.comment-heart {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  opacity: 0.8;
+}
 .post_footer > div {
   display: flex;
   justify-content: space-between;
