@@ -74,7 +74,7 @@
 }
 
 .stories-image {
-  background-image: url(/assets/story_frame.svg);
+  background-image: url(assets/story_frame.svg);
   width: 66px;
   height: 66px;
   display: flex;
@@ -246,7 +246,7 @@ footer {
 }
 
 .user_image {
-  background-image: url(/assets/story_frame.svg);
+  background-image: url(assets/story_frame.svg);
   width: 35px;
   height: 35px;
   background-size: 100% 100%;
